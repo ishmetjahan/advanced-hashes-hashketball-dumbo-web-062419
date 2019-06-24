@@ -143,9 +143,11 @@ end
 def num_points_scored (name)
   game_hash.each do |place,team|
   #binding.pry 
-  team.each do |ele, data|
+  team.each do |hash_name, data|
+    data.each do 
     binding.pry 
     
+  end
   end
 end
 end
