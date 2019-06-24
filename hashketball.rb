@@ -139,6 +139,25 @@ def num_points_scored(name)
   result = find_player[:points]
   result.to_i
 end 
+
+def num_points_scored (name)
+  game_hash.each do |place,team|
+  binding.pry 
+  
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+
 #
 #
 def shoe_size (name)
