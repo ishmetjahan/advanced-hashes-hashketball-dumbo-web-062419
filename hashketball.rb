@@ -133,7 +133,7 @@ end
 
 def num_points_scored(name)
  
-   find_player = players.find {|player| player.fetch(:player_name) == name }
+   find_player = players.find {|player| player[:player_name] == name }
     #binding.pry
   result = find_player[:points]
   result.to_i
